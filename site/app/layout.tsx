@@ -7,6 +7,14 @@ export const metadata: Metadata = {
   alternates: { canonical: '/' },
   title: 'TCG Business Elite | Collection Value Tracker',
   description: 'A documented Dominik Szoboszlai football-card collection with transparent market-value tracking and source confidence.',
+  icons: {
+    icon: [
+      { url: '/favicon-32.png', type: 'image/png', sizes: '32x32' },
+      { url: '/favicon-192.png', type: 'image/png', sizes: '192x192' },
+    ],
+    shortcut: '/favicon-32.png',
+    apple: [{ url: '/apple-touch-icon.png', type: 'image/png', sizes: '180x180' }],
+  },
   openGraph: {
     title: 'TCG Business Elite',
     description: 'Collection Value Tracker',
